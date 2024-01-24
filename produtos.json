@@ -1,0 +1,109 @@
+{
+    "Espetos":[
+        {
+            "nome":"Picanha",
+            "Simples":25,
+            "Completo":33
+        },
+        {
+            "nome":"Contra Filé",
+            "Simples":"15",
+            "Completo":"23",
+            "Imagem":"/Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Tulipa da Asa",
+            "Simples":13,
+            "Completo":21
+        },
+        {
+            "nome":"Frango C/Bacon",
+            "Simples":13,
+            "Completo":21
+        },
+        {
+            "nome":"Cupim",
+            "Simples":13,
+            "Completo":21
+        },
+        {
+            "nome":"Queijo Coalho",
+            "Simples":12,
+            "Completo":20
+        },
+        {
+            "nome":"Pão de Alho",
+            "Simples":12,
+            "Completo":20
+        },
+        {
+            "nome":"Coraçãozinho",
+            "Simples":12,
+            "Completo":20
+        }
+    ],
+
+    "Carnes na Brasa":[
+        {
+            "nome":"carne de sol",
+            "2Pessoas":98,
+            "5Pessoas":139
+        },
+        {
+            "nome":"Picanha Grill",
+            "2Pessoas":129,
+            "5Pessoas":190
+        }
+    ],
+
+    "Panelinhas":[
+        {
+            "nome":"camarão",
+            "2Pessoas":99,
+            "5Pessoas":119
+        },
+        {
+            "nome":"carne de sol",
+            "2Pessoas":69,
+            "5Pessoas":89
+        },
+        {
+            "nome":"Filé Mingnon",
+            "2Pessoas":84,
+            "5Pessoas":104
+        },
+        {
+            "nome":"Frango C/Palmito",
+            "2Pessoas":64,
+            "5Pessoas":79
+        },
+        {
+            "nome":"Sertaneja",
+            "2Pessoas":89,
+            "5Pessoas":109
+        }
+    ],
+
+    "Carnes na Chapa":[
+        {
+            "nome":"Picanha Grill",
+            "Valor":109
+        },
+        {
+            "nome":"Carne de Sol",
+            "Valor":75
+        },
+        {
+            "nome":"Picanha",
+            "Valor":85
+        },
+        {
+            "nome":"Filé",
+            "Valor":80
+        },
+        {
+            "nome":"Filé de Frango",
+            "Valor":59
+        }
+    ]
+}

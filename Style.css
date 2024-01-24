@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-navbar{
+    background: rgb(75, 42, 0);
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    top: 0px;
+}
+.sub-navbar ul{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    overflow-y: hidden;
+}
+
+.sub-navbar ul li{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto 30px;
+    font-size: x-large;
+    color: #fff;
+    width: max-content;
+    min-width: 200px;
+    height: 10px;
+}
+
+.all-cards{
+    overflow-y: auto;
+    margin: 6vh auto;
+}
