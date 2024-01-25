@@ -2,108 +2,108 @@
     "Espetos":[
         {
             "nome":"Picanha",
-            "Simples":25,
-            "Completo":33
+            "val1":25,
+            "val2":33
         },
         {
             "nome":"Contra Filé",
-            "Simples":"15",
-            "Completo":"23",
+            "val1":"15",
+            "val2":"23",
             "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Tulipa da Asa",
-            "Simples":13,
-            "Completo":21
+            "val1":13,
+            "val2":21
         },
         {
             "nome":"Frango C/Bacon",
-            "Simples":13,
+            "val1":13,
             "Completo":21
         },
         {
             "nome":"Cupim",
-            "Simples":13,
-            "Completo":21
+            "val1":13,
+            "val2":21
         },
         {
             "nome":"Queijo Coalho",
-            "Simples":12,
-            "Completo":20
+            "val1":12,
+            "val2":20
         },
         {
             "nome":"Pão de Alho",
-            "Simples":12,
-            "Completo":20
+            "val1":12,
+            "val2":20
         },
         {
             "nome":"Coraçãozinho",
-            "Simples":12,
-            "Completo":20
+            "val1":12,
+            "val2":20
         }
     ],
 
-    "Carnes na Brasa":[
+    "CarnesBrasa":[
         {
             "nome":"carne de sol",
-            "2Pessoas":98,
-            "5Pessoas":139
+            "val1":98,
+            "val2":139
         },
         {
             "nome":"Picanha Grill",
-            "2Pessoas":129,
-            "5Pessoas":190
+            "val1":129,
+            "val2":190
         }
     ],
 
     "Panelinhas":[
         {
             "nome":"camarão",
-            "2Pessoas":99,
-            "5Pessoas":119
+            "val1":99,
+            "val2":119
         },
         {
             "nome":"carne de sol",
-            "2Pessoas":69,
-            "5Pessoas":89
+            "val1":69,
+            "val2":89
         },
         {
             "nome":"Filé Mingnon",
-            "2Pessoas":84,
-            "5Pessoas":104
+            "val1":84,
+            "val2":104
         },
         {
             "nome":"Frango C/Palmito",
-            "2Pessoas":64,
-            "5Pessoas":79
+            "val1":64,
+            "val2":79
         },
         {
             "nome":"Sertaneja",
-            "2Pessoas":89,
-            "5Pessoas":109
+            "val1":89,
+            "val2":109
         }
     ],
 
-    "Carnes na Chapa":[
+    "CarnesChapa":[
         {
             "nome":"Picanha Grill",
-            "Valor":109
+            "val1":109
         },
         {
             "nome":"Carne de Sol",
-            "Valor":75
+            "val1":75
         },
         {
             "nome":"Picanha",
-            "Valor":85
+            "val1":85
         },
         {
             "nome":"Filé",
-            "Valor":80
+            "val1":80
         },
         {
             "nome":"Filé de Frango",
-            "Valor":59
+            "val1":59
         }
     ]
 }
