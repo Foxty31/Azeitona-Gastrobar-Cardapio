@@ -105,5 +105,177 @@
             "nome":"Filé de Frango",
             "val1":59
         }
+    ],
+
+    "Sucos":[
+        {
+            "nome":"Goiaba",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Manga",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Maracujá",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Abacaxi",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Acerola",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Abacaxi C/Hortelã",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Morango",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Limão",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Cajá",
+            "val1":12,
+            "val2":20
+        },
+        {
+            "nome":"Laranja",
+            "val1":12,
+            "val2":20
+        }
+    ],
+
+    "Cremes":[
+        {
+            "nome":"Cupuaçu",
+            "val1":18
+        },
+        {
+            "nome":"Acerola",
+            "val1":18
+        },
+        {
+            "nome":"morango",
+            "val1":18
+        },
+        {
+            "nome":"Maracujá",
+            "val1":18
+        },
+        {
+            "nome":"Cajá",
+            "val1":18
+        }
+    ],
+
+    "Adicionais":[
+        {
+            "nome":"Arroz",
+            "val1":6
+        },
+        {
+            "nome":"Vinagrete",
+            "val1":6
+        },
+        {
+            "nome":"Mandioca",
+            "val1":8
+        },
+        {
+            "nome":"Farofa",
+            "val1":8
+        },
+        {
+            "nome":"Calabresa",
+            "val1":8
+        },
+        {
+            "nome":"Bacon",
+            "val1":8
+        },
+        {
+            "nome":"Feijão Tropeiro",
+            "val1":8
+        },
+        {
+            "nome":"Carne de Sol",
+            "val1":10
+        },
+        {
+            "nome":"Palmito",
+            "val1":12
+        },
+        {
+            "nome":"Filé Mingnon",
+            "val1":16
+        }
+    ],
+
+    "Long-Neck":[
+        {
+            "nome":"Budweiser 330ML",
+            "val1":10
+        },
+        {
+            "nome":"Stella Artois 330ML",
+            "val1":10
+        },
+        {
+            "nome":"Corona 330ML",
+            "val1":10
+        },
+        {
+            "nome":"Skol Beats Gt 313ML",
+            "val1":13
+        },
+        {
+            "nome":"Heineken 330ML",
+            "val1":13
+        }
+    ],
+
+    "Doses":[
+        {
+            "nome":"Licor43",
+            "val1":22
+        },
+        {
+            "nome":"Vermelhão",
+            "val1":15
+        },
+        {
+            "nome":"Campari",
+            "val1":15
+        },
+        {
+            "nome":"José Cuervo Tequila",
+            "val1":18
+        }
+    ],
+
+    "Combos":[
+        {
+            "nome":"Bucanas",
+            "val1":"??"
+        },
+        {
+            "nome":"Smirnoff +1 Suco (1L)",
+            "val":120
+        }
     ]
 }

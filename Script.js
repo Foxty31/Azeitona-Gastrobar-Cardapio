@@ -1,7 +1,7 @@
 let allcards = document.getElementById("all-cards");
 let Comida = document.getElementById("Comida");
 let Espeto = document.getElementById("Espeto");
-let Sucos = document.getElementById("Suco");
+let Sucos = document.getElementById("Sucos");
 let Cremes = document.getElementById("Cremes");
 let Panelinhas = document.getElementById("Panelinhas");
 let CarnesChapa = document.getElementById("CarnesChapa");
@@ -9,6 +9,7 @@ let Adicionais = document.getElementById("Adicionais");
 let PorcoesEPetiscos = document.getElementById("PorcoesEPetiscos");
 let CarnesBrasa = document.getElementById("CarnesBrasa");
 let Drinks = document.getElementById("Drinks");
+let LongNeck = document.getElementById("LongNeck");
 
 Comida.onclick = () => {
     listar("Comida")
@@ -28,6 +29,18 @@ Panelinhas.onclick = () => {
 
 CarnesChapa.onclick = () => {
     listar("CarnesChapa")
+}
+
+Sucos.onclick = () => {
+    listar("Sucos")
+}
+
+Adicionais.onclick = () => {
+    listar("Adicionais")
+}
+
+LongNeck.onclick = () => {
+    listar("Long-Neck")
 }
 
 
