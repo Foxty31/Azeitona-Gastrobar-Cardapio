@@ -390,5 +390,99 @@
             "nome":"Energético RedBull 250ML",
             "val1":15
         }
+    ],
+
+    "Caipirinha":[
+        {
+            "nome":"Limão",
+            "val1":18,
+            "val2":20,
+            "val3":22
+        },
+        {
+            "nome":"Maracujá",
+            "val1":20,
+            "val2":22,
+            "val3":24
+        },
+        {
+            "nome":"Abacaxi",
+            "val1":20,
+            "val2":22,
+            "val3":24
+        },
+        {
+            "nome":"Morango",
+            "val1":20,
+            "val2":22,
+            "val3":24
+        },
+        {
+            "nome":"Limão Siciliano",
+            "val1":20,
+            "val2":22,
+            "val3":24
+        },
+        {
+            "nome":"Kiwi",
+            "val1":20,
+            "val2":22,
+            "val3":24
+        }
+    ],
+
+    "Cervejas":[
+        {
+            "nome":"Antártica 600ML",
+            "val1":11
+        },
+
+        {
+            "nome":"Antártica Original 600ML",
+            "val1":13
+        },
+        {
+            "nome":"Spaten 600ML",
+            "val1":14
+        },
+        {
+            "nome":"Cozumel",
+            "val1":15
+        },
+        {
+            "nome":"Cozumel sem Álcool",
+            "val1":14
+        },
+        {
+            "nome":"Heineken 600ML",
+            "val1":16
+        }
+    ],
+
+    "Cachacas":[
+        {
+            "nome":"Salinas",
+            "val1":9
+        },
+        {
+            "nome":"Saleta",
+            "val1":9
+        },
+        {
+            "nome":"Sagatiba",
+            "val1":9
+        },
+        {
+            "nome":"Paratudo",
+            "val1":5
+        },
+        {
+            "nome":"Velho Barreiro",
+            "val1":5
+        },
+        {
+            "nome":"51",
+            "val1":5
+        }
     ]
 }

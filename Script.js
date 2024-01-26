@@ -13,6 +13,10 @@ let LongNeck = document.getElementById("LongNeck");
 let Gin = document.getElementById("Gin");
 let Whisky = document.getElementById("Whisky");
 let Combos = document.getElementById("Combos");
+let SolfDrinks = document.getElementById("SolfDrinks")
+let Caipirinhas = document.getElementById("Caipirinha");
+let Cervejas = document.getElementById("Cervejas");
+let Cachacas = document.getElementById("Cachacas");
 
 Comida.onclick = () => {
     listar("Comida")
@@ -66,6 +70,26 @@ Vodka.onclick = () => {
     listar("Vodka")
 }
 
+SolfDrinks.onclick = () => {
+    listar("Solf Drinks")
+}
+
+Caipirinhas.onclick = () => {
+    listar("Caipirinha")
+}
+
+Cervejas.onclick = () => {
+    listar("Cervejas")
+}
+
+Cachacas.onclick = () => {
+    listar("Cachacas")
+}
+
+PorcoesEPetiscos.onclick = () => {
+    listar("")
+}
+
 function listar(tipo) {
     allcards.innerHTML = null;
 
@@ -93,17 +117,21 @@ function listar(tipo) {
                 div.appendChild(h4);
                 
                 //li
+                let la = document.createElement("li");
+                la.className = "texto-card"
+                la.textContent = item.val1
+                div.appendChild(la);
+                
+                let le = document.createElement("li");
+                le.className = "textola-card"
+                le.textContent = item.val2
+                div.appendChild(le);
+
                 let li = document.createElement("li");
                 li.className = "texto-card"
-                li.textContent = item.val1
-                div.appendChild(li);
-                
-                let la = document.createElement("li");
-                la.className = "textola-card"
-                la.textContent = item.val2
-                div.appendChild(la);
+                li.textContent = item.val3
+                div.appendChild(li)
 
-                
 
     
                 //
