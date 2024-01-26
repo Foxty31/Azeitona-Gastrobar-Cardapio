@@ -11,7 +11,8 @@ let CarnesBrasa = document.getElementById("CarnesBrasa");
 let Drinks = document.getElementById("Drinks");
 let LongNeck = document.getElementById("LongNeck");
 let Gin = document.getElementById("Gin");
-let Whisky = document.getElementById("Whisky")
+let Whisky = document.getElementById("Whisky");
+let Combos = document.getElementById("Combos");
 
 Comida.onclick = () => {
     listar("Comida")
@@ -19,6 +20,10 @@ Comida.onclick = () => {
 
 Espeto.onclick = () => {
     listar("Espetos")
+}
+
+Cremes.onclick = () => {
+    listar("Cremes")
 }
 
 CarnesBrasa.onclick = () => {
@@ -45,6 +50,10 @@ LongNeck.onclick = () => {
     listar("Long-Neck")
 }
 
+Combos.onclick = () => {
+    listar("Combos")
+}
+
 Gin.onclick = () => {
     listar("Gin")
 }
@@ -53,6 +62,9 @@ Whisky.onclick = () => {
     listar("Whisky")
 }
 
+Vodka.onclick = () => {
+    listar("Vodka")
+}
 
 function listar(tipo) {
     allcards.innerHTML = null;

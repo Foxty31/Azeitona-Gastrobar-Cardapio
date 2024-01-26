@@ -329,5 +329,66 @@
             "val1":20,
             "val2":280
         }
+    ],
+
+    "Vodka":[
+        {
+            "nome":"Smirnoff",
+            "val1":9,
+            "val2":90
+        },
+        {
+            "nome":"Absolut",
+            "val1":16,
+            "val2":180
+        },
+        {
+            "nome":"Grey Goose",
+            "val1":21,
+            "val2":260
+        }
+    ],
+
+    "Solf Drinks":[
+        {
+            "nome":"Sal e Limão",
+            "val1":3
+        },
+        {
+            "nome":"Preparo de Cozumel",
+            "val1":5
+        },
+        {
+            "nome":"Água sem Gás",
+            "val1":5
+        },
+        {
+            "nome":"Água com Gás",
+            "val1":6
+        },
+        {
+            "nome":"Água de Coco",
+            "val1":10
+        },
+        {
+            "nome":"Refri Lata 350ML",
+            "val1":6
+        },
+        {
+            "nome":"Schwieppes Citrus Lata",
+            "val1":6
+        },
+        {
+            "nome":"H2OH 500ML",
+            "val1":6
+        },
+        {
+            "nome":"Tônica 350ML",
+            "val1":6
+        },
+        {
+            "nome":"Energético RedBull 250ML",
+            "val1":15
+        }
     ]
 }
