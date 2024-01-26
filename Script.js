@@ -10,6 +10,8 @@ let PorcoesEPetiscos = document.getElementById("PorcoesEPetiscos");
 let CarnesBrasa = document.getElementById("CarnesBrasa");
 let Drinks = document.getElementById("Drinks");
 let LongNeck = document.getElementById("LongNeck");
+let Gin = document.getElementById("Gin");
+let Whisky = document.getElementById("Whisky")
 
 Comida.onclick = () => {
     listar("Comida")
@@ -43,6 +45,13 @@ LongNeck.onclick = () => {
     listar("Long-Neck")
 }
 
+Gin.onclick = () => {
+    listar("Gin")
+}
+
+Whisky.onclick = () => {
+    listar("Whisky")
+}
 
 
 function listar(tipo) {

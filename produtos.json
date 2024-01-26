@@ -276,6 +276,58 @@
         {
             "nome":"Smirnoff +1 Suco (1L)",
             "val":120
+        },
+        {
+            "nome":"Absolut + 3 Energeticos",
+            "val1":215
+        },
+        {
+            "nome":"Gin Tanqueray + 3 Aguas Tônicas",
+            "val1":270
+        },
+        {
+            "nome":"Gin Tanqueray + 3 Energétios",
+            "val1":280
+        },
+        {
+            "nome":"Old Par + 3 Energéticos",
+            "val1":290
+        }
+    ],
+
+    "Gin":[
+        {
+            "nome":"Rock",
+            "val1":8,
+            "val2":80
+        },
+        {
+            "nome":"Tanqueray",
+            "val1":19,
+            "val2":250
+        }
+    ],
+
+    "Whisky":[
+        {
+            "nome":"Jack Daniel's",
+            "val1":18,
+            "val2":260
+        },
+        {
+            "nome":"Old Par 12 Old",
+            "val1":18,
+            "val2":260
+        },
+        {
+            "nome":"Buchanan's 12 Old",
+            "val1":20,
+            "val2":320
+        },
+        {
+            "nome":"Chivas",
+            "val1":20,
+            "val2":280
         }
     ]
 }
