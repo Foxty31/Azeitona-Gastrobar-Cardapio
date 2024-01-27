@@ -484,5 +484,146 @@
             "nome":"51",
             "val1":5
         }
+    ],
+
+    "DrinksDoAzeitona":[
+        {
+            "nome":"Mojito",
+            "val1":24
+        },
+        {
+            "nome":"Azeitona Mulle",
+            "val1":29
+        },
+        {
+            "nome":"Sex On The Beach",
+            "val1":28
+        },
+        {
+            "nome":"Pina Colada",
+            "val1":28
+        },
+        {
+            "nome":"Maracujack",
+            "val1":35
+        },
+        {
+            "nome":"Gin Tónica",
+            "val1":28
+        },
+        {
+            "nome":"Gin Thay",
+            "val1":28
+        },
+        {
+            "nome":"Paradise Iguanas",
+            "val1":30
+        },
+        {
+            "nome":"Gin Fizz",
+            "val1":28
+        },
+        {
+            "nome":"Gin Tropical",
+            "val1":32
+        },
+        {
+            "nome":"Lagoa Azul",
+            "val1":26
+        },
+        {
+            "nome":"Shot Flamejante",
+            "val1":15
+        }
+    ],
+
+    "DrinksZero":[
+        {
+            "nome":"Virgin Mojito",
+            "val1":18
+        },
+        {
+            "nome":"Virgin Sex On The Beach",
+            "val1":18
+        }
+    ],
+
+    "PorcoesEPetiscos":[
+        {
+            "nome":"Frango a Passarinho",
+            "val1":38
+        },
+        {
+            "nome":"Filé de Frango Empanado",
+            "val1":42
+        },
+        {
+            "nome":"Tilápia Empanada",
+            "val1":59
+        },
+        {
+            "nome":"Batata Frita Simples",
+            "val1":29
+        },
+        {
+            "nome":"Batata Frita Azeitona",
+            "val1":38
+        },
+        {
+            "nome":"Parmegiana de Frango",
+            "val1":39
+        },
+        {
+            "nome":"Parmegiana de Carne",
+            "val1":39
+        },
+        {
+            "nome":"Pastelzinho Mistos",
+            "val1":34
+        },
+        {
+            "nome":"Kibe Rech.C/ Requeijão",
+            "val1":34
+        },
+        {
+            "nome":"Disquinho De Carne Com Queijo",
+            "val1":39
+        },
+        {
+            "nome":"Disquinho de Costela com Bacon e Cheddar",
+            "val1":39
+        },
+        {
+            "nome":"Bolinho de Mandioca",
+            "val1":34
+        },
+        {
+            "nome":"Bolinho Defumado de Carne Seca",
+            "val1":49
+        },
+        {
+            "nome":"Bolinho Defumado de Frango",
+            "val1":39
+        },
+        {
+            "nome":"Camarão Empanado",
+            "val1":79
+        },
+        {
+            "nome":"Calabresa Acebolada",
+            "val1":29
+        },
+        {
+            "nome":"Mandioca Frita",
+            "val1":25
+        },
+        {
+            "nome":"Torresmo",
+            "val1":29
+        },
+        {
+            "nome":"Frangolino",
+            "val1":59
+        }
     ]
 }

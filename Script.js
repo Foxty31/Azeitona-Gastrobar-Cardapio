@@ -1,5 +1,4 @@
 let allcards = document.getElementById("all-cards");
-let Comida = document.getElementById("Comida");
 let Espeto = document.getElementById("Espeto");
 let Sucos = document.getElementById("Sucos");
 let Cremes = document.getElementById("Cremes");
@@ -8,19 +7,18 @@ let CarnesChapa = document.getElementById("CarnesChapa");
 let Adicionais = document.getElementById("Adicionais");
 let PorcoesEPetiscos = document.getElementById("PorcoesEPetiscos");
 let CarnesBrasa = document.getElementById("CarnesBrasa");
-let Drinks = document.getElementById("Drinks");
+let DrinksAzeitona = document.getElementById("Drinks");
 let LongNeck = document.getElementById("LongNeck");
 let Gin = document.getElementById("Gin");
 let Whisky = document.getElementById("Whisky");
 let Combos = document.getElementById("Combos");
 let SolfDrinks = document.getElementById("SolfDrinks")
-let Caipirinhas = document.getElementById("Caipirinha");
+let Caipirinhas = document.getElementById("Caipirinhas");
 let Cervejas = document.getElementById("Cervejas");
 let Cachacas = document.getElementById("Cachacas");
+let Doses = document.getElementById("Doses");
+let DrinksZero = document.getElementById("DrinksZero")
 
-Comida.onclick = () => {
-    listar("Comida")
-}
 
 Espeto.onclick = () => {
     listar("Espetos")
@@ -87,7 +85,19 @@ Cachacas.onclick = () => {
 }
 
 PorcoesEPetiscos.onclick = () => {
-    listar("")
+    listar("PorcoesEPetiscos")
+}
+
+Doses.onclick = () => {
+    listar("Doses")
+}
+
+DrinksAzeitona.onclick = () => {
+    listar("DrinksDoAzeitona")
+}
+
+DrinksZero.onclick = () => {
+    listar("DrinksZero")
 }
 
 function listar(tipo) {
