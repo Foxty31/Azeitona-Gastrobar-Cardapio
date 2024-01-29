@@ -120,6 +120,8 @@ function listar(tipo) {
                 img.className = "img-card"
                 img.src = item.Imagem
 
+
+
                 div.appendChild(img);
                 let h4 = document.createElement("h4");
                 h4.textContent = item.nome
@@ -133,7 +135,7 @@ function listar(tipo) {
                 div.appendChild(la);
                 
                 let le = document.createElement("li");
-                le.className = "textola-card"
+                le.className = "texto-card"
                 le.textContent = item.val2
                 div.appendChild(le);
 
