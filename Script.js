@@ -108,47 +108,92 @@ function listar(tipo) {
     }).then(json => {
         
         let lista = json[tipo];
-        console.log(lista)
         lista.forEach(item => {
         
                 
                 let div = document.createElement("div");
                 div.className = "card";
-                //h4
+
 
                 let img = document.createElement("img");
-                img.className = "img-card"
-                img.src = item.Imagem
-
-
-
+                img.className = "img-card";
+                img.src = item.Imagem;
                 div.appendChild(img);
-                let h4 = document.createElement("h4");
-                h4.textContent = item.nome
-                h4.className = "titulo-card";
-                div.appendChild(h4);
-                
-                //li
-                let la = document.createElement("li");
-                la.className = "texto-card"
-                la.textContent = item.val1
-                div.appendChild(la);
-                
-                let le = document.createElement("li");
-                le.className = "texto-card"
-                le.textContent = item.val2
-                div.appendChild(le);
 
-                let li = document.createElement("li");
-                li.className = "texto-card"
-                li.textContent = item.val3
-                div.appendChild(li)
+
+
+                let h1 = document.createElement("h1");
+                h1.textContent = item.nome
+                h1.className = "titulo-card";
+                div.appendChild(h1);
+                
+                let preco = document.createElement("div");
+                preco.className = "div-precos";
+
+
+                if (item.val1) {
+
+                    let precoU = document.createElement("div");
+                    precoU.className = "precos"
+
+                    preco.appendChild(precoU);
+
+                    let iconU = document.createElement("i");
+                    iconU.className = "texto-card";
+                    iconU.innerHTML = `<i class="fa-solid fa-user"></i>`;
+                    precoU.appendChild(iconU);
+
+                    let spanU = document.createElement("span");
+                    spanU.className = "texto-card";
+                    spanU.textContent = "R$"+item.val1+",00";
+                    precoU.appendChild(spanU);
+                }
+                
+                
+
+                if (item.val2) {
+                    let precoD = document.createElement("div");
+                    precoD.className = "precos"
+
+                    preco.appendChild(precoD);
+
+                    let iconD = document.createElement("i");
+                    iconD.className = "texto-card";
+                    iconD.innerHTML = `<i class="fa-solid fa-user-group"></i>`;
+                    precoD.appendChild(iconD);
+
+                let spanU = document.createElement("span");
+                    spanU.className = "texto-card";
+                    spanU.textContent = "R$"+item.val2+",00";
+                    precoD.appendChild(spanU);
+                }
+                
+
+                if (item.val3) {
+                    let precoT = document.createElement("div");
+                    precoT.className = "precos"
+
+                    preco.appendChild(precoT);
+
+                    let iconT = document.createElement("i");
+                    iconT.className = "texto-card";
+                    iconT.innerHTML = `<i class="fa-solid fa-users"></i>`;
+                    precoT.appendChild(iconT);
+
+                    let spanT = document.createElement("span");
+                    spanT.className = "texto-card";
+                    spanT.textContent = "R$"+item.val3+",00";
+                    precoT.appendChild(spanT);
+                }
+
+                
 
 
     
                 //
+                div.appendChild(preco);
                 allcards.appendChild(div);
-               
+
         })   
         
     })

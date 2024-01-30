@@ -10,6 +10,7 @@ body{
     height: 5vh;
     position: fixed;
     top: 0px;
+    z-index: 10;
 }
 .sub-navbar ul{
     margin: 0;
@@ -44,35 +45,61 @@ body{
 }
 
 .card{
+    position: relative;
     width: auto;
     margin: auto;
     display: flex;
     background-color: #fff;
+    justify-content: space-between;
     height: 30%;
-    margin: 5vh;
-    padding: 5%;
+    margin: 5vh 1vh;
+    padding: 0;
     border-radius: 20px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    height: 15vh;
 }
 
 .titulo-card{
-    font-size: x-large;
+    justify-content: center;
+    font-size: 25px;
+    margin: auto 10%;
+    width: 30%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    color: #fff;
 }
 
 .texto-card{
-    font-size: 30px;
-    list-style: none;
-    margin: 5%;
-    display: flex;
-}
-
-.titulo-card{
     font-size: 20px;
-    margin-top: 0;
+    list-style: none;
+    margin: 0px 5px;
+    text-align: center;
+    z-index: 2;
 }
 
 .img-card{
-    width: 30%;
+    width: 70%;
     height: 100%;
+    margin: 0;
+    border-radius: 20px 0px 0px 20px;
+    z-index: 1;
+}
+
+.div-precos{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 83, 14);
+    margin-right: 0;
+    border-radius: 0 20px 20px 0;
+    z-index: 2;
+}
+
+.precos{
     margin: auto;
+    justify-content: space-around;
+    color: #fff;
 }

@@ -3,7 +3,8 @@
         {
             "nome":"Picanha",
             "val1":25,
-            "val2":33
+            "val2":33,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Contra Filé",
@@ -14,32 +15,38 @@
         {
             "nome":"Tulipa da Asa",
             "val1":13,
-            "val2":21
+            "val2":21,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Frango C/Bacon",
             "val1":13,
-            "Completo":21
+            "val2":21,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Cupim",
             "val1":13,
-            "val2":21
+            "val2":21,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Queijo Coalho",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Pão de Alho",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Coraçãozinho",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -47,12 +54,14 @@
         {
             "nome":"carne de sol",
             "val1":98,
-            "val2":139
+            "val2":139,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Picanha Grill",
             "val1":129,
-            "val2":190
+            "val2":190,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -60,50 +69,60 @@
         {
             "nome":"camarão",
             "val1":99,
-            "val2":119
+            "val2":119,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"carne de sol",
             "val1":69,
-            "val2":89
+            "val2":89,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Filé Mingnon",
             "val1":84,
-            "val2":104
+            "val2":104,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Frango C/Palmito",
             "val1":64,
-            "val2":79
+            "val2":79,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Sertaneja",
             "val1":89,
-            "val2":109
+            "val2":109,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "CarnesChapa":[
         {
             "nome":"Picanha Grill",
-            "val1":109
+            "val1":109,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Carne de Sol",
-            "val1":75
+            "val1":75,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Picanha",
-            "val1":85
+            "val1":85,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Filé",
-            "val1":80
+            "val1":80,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Filé de Frango",
-            "val1":59
+            "val1":59,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -111,187 +130,227 @@
         {
             "nome":"Goiaba",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Manga",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Maracujá",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Abacaxi",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Acerola",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Abacaxi C/Hortelã",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Morango",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Limão",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Cajá",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Laranja",
             "val1":12,
-            "val2":20
+            "val2":20,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Cremes":[
         {
             "nome":"Cupuaçu",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Acerola",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"morango",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Maracujá",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Cajá",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Adicionais":[
         {
             "nome":"Arroz",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Vinagrete",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Mandioca",
-            "val1":8
+            "val1":8,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Farofa",
-            "val1":8
+            "val1":8,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Calabresa",
-            "val1":8
+            "val1":8,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Bacon",
-            "val1":8
+            "val1":8,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Feijão Tropeiro",
-            "val1":8
+            "val1":8,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Carne de Sol",
-            "val1":10
+            "val1":10,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Palmito",
-            "val1":12
+            "val1":12,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Filé Mingnon",
-            "val1":16
+            "val1":16,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Long-Neck":[
         {
             "nome":"Budweiser 330ML",
-            "val1":10
+            "val1":10,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Stella Artois 330ML",
-            "val1":10
+            "val1":10,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Corona 330ML",
-            "val1":10
+            "val1":10,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Skol Beats Gt 313ML",
-            "val1":13
+            "val1":13,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Heineken 330ML",
-            "val1":13
+            "val1":13,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Doses":[
         {
             "nome":"Licor43",
-            "val1":22
+            "val1":22,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Vermelhão",
-            "val1":15
+            "val1":15,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Campari",
-            "val1":15
+            "val1":15,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"José Cuervo Tequila",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Combos":[
         {
             "nome":"Bucanas",
-            "val1":"??"
+            "val1":"??",
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Smirnoff +1 Suco (1L)",
-            "val":120
+            "val1":120,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Absolut + 3 Energeticos",
-            "val1":215
+            "val1":215,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Tanqueray + 3 Aguas Tônicas",
-            "val1":270
+            "val1":270,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Tanqueray + 3 Energétios",
-            "val1":280
+            "val1":280,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Old Par + 3 Energéticos",
-            "val1":290
+            "val1":290,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -299,12 +358,14 @@
         {
             "nome":"Rock",
             "val1":8,
-            "val2":80
+            "val2":80,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Tanqueray",
             "val1":19,
-            "val2":250
+            "val2":250,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -312,22 +373,26 @@
         {
             "nome":"Jack Daniel's",
             "val1":18,
-            "val2":260
+            "val2":260,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Old Par 12 Old",
             "val1":18,
-            "val2":260
+            "val2":260,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Buchanan's 12 Old",
             "val1":20,
-            "val2":320
+            "val2":320,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Chivas",
             "val1":20,
-            "val2":280
+            "val2":280,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -335,60 +400,73 @@
         {
             "nome":"Smirnoff",
             "val1":9,
-            "val2":90
+            "val2":90,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Absolut",
             "val1":16,
-            "val2":180
+            "val2":180,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Grey Goose",
             "val1":21,
-            "val2":260
+            "val2":260,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Solf Drinks":[
         {
             "nome":"Sal e Limão",
-            "val1":3
+            "val1":3,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Preparo de Cozumel",
-            "val1":5
+            "val1":5,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Água sem Gás",
-            "val1":5
+            "val1":5,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Água com Gás",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Água de Coco",
-            "val1":10
+            "val1":10,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Refri Lata 350ML",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Schwieppes Citrus Lata",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"H2OH 500ML",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Tônica 350ML",
-            "val1":6
+            "val1":6,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Energético RedBull 250ML",
-            "val1":15
+            "val1":15,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
@@ -397,233 +475,284 @@
             "nome":"Limão",
             "val1":18,
             "val2":20,
-            "val3":22
+            "val3":22,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Maracujá",
             "val1":20,
             "val2":22,
-            "val3":24
+            "val3":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Abacaxi",
             "val1":20,
             "val2":22,
-            "val3":24
+            "val3":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Morango",
             "val1":20,
             "val2":22,
-            "val3":24
+            "val3":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Limão Siciliano",
             "val1":20,
             "val2":22,
-            "val3":24
+            "val3":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Kiwi",
             "val1":20,
             "val2":22,
-            "val3":24
+            "val3":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Cervejas":[
         {
             "nome":"Antártica 600ML",
-            "val1":11
+            "val1":11,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
 
         {
             "nome":"Antártica Original 600ML",
-            "val1":13
+            "val1":13,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Spaten 600ML",
-            "val1":14
+            "val1":14,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Cozumel",
-            "val1":15
+            "val1":15,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Cozumel sem Álcool",
-            "val1":14
+            "val1":14,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Heineken 600ML",
-            "val1":16
+            "val1":16,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "Cachacas":[
         {
             "nome":"Salinas",
-            "val1":9
+            "val1":9,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Saleta",
-            "val1":9
+            "val1":9,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Sagatiba",
-            "val1":9
+            "val1":9,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Paratudo",
-            "val1":5
+            "val1":5,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Velho Barreiro",
-            "val1":5
+            "val1":5,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"51",
-            "val1":5
+            "val1":5,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "DrinksDoAzeitona":[
         {
             "nome":"Mojito",
-            "val1":24
+            "val1":24,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Azeitona Mulle",
-            "val1":29
+            "val1":29,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Sex On The Beach",
-            "val1":28
+            "val1":28,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Pina Colada",
-            "val1":28
+            "val1":28,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Maracujack",
-            "val1":35
+            "val1":35,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Tónica",
-            "val1":28
+            "val1":28,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Thay",
-            "val1":28
+            "val1":28,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Paradise Iguanas",
-            "val1":30
+            "val1":30,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Fizz",
-            "val1":28
+            "val1":28,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Gin Tropical",
-            "val1":32
+            "val1":32,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Lagoa Azul",
-            "val1":26
+            "val1":26,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Shot Flamejante",
-            "val1":15
+            "val1":15,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "DrinksZero":[
         {
             "nome":"Virgin Mojito",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Virgin Sex On The Beach",
-            "val1":18
+            "val1":18,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ],
 
     "PorcoesEPetiscos":[
         {
             "nome":"Frango a Passarinho",
-            "val1":38
+            "val1":38,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Filé de Frango Empanado",
-            "val1":42
+            "val1":42,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Tilápia Empanada",
-            "val1":59
+            "val1":59,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Batata Frita Simples",
-            "val1":29
+            "val1":29,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Batata Frita Azeitona",
-            "val1":38
+            "val1":38,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Parmegiana de Frango",
-            "val1":39
+            "val1":39,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Parmegiana de Carne",
-            "val1":39
+            "val1":39,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Pastelzinho Mistos",
-            "val1":34
+            "val1":34,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Kibe Rech.C/ Requeijão",
-            "val1":34
+            "val1":34,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Disquinho De Carne Com Queijo",
-            "val1":39
+            "val1":39,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Disquinho de Costela com Bacon e Cheddar",
-            "val1":39
+            "val1":39,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Bolinho de Mandioca",
-            "val1":34
+            "val1":34,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Bolinho Defumado de Carne Seca",
-            "val1":49
+            "val1":49,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Bolinho Defumado de Frango",
-            "val1":39
+            "val1":39,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Camarão Empanado",
-            "val1":79
+            "val1":79,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Calabresa Acebolada",
-            "val1":29
+            "val1":29,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Mandioca Frita",
-            "val1":25
+            "val1":25,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Torresmo",
-            "val1":29
+            "val1":29,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         },
         {
             "nome":"Frangolino",
-            "val1":59
+            "val1":59,
+            "Imagem":"/Imagens/Espetos/cf.webp"
         }
     ]
 }
