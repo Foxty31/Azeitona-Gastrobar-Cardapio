@@ -1,104 +1,38 @@
-let allcards = document.getElementById("all-cards");
-let Espeto = document.getElementById("Espeto");
-let Sucos = document.getElementById("Sucos");
-let Cremes = document.getElementById("Cremes");
-let Panelinhas = document.getElementById("Panelinhas");
-let CarnesChapa = document.getElementById("CarnesChapa");
-let Adicionais = document.getElementById("Adicionais");
-let PorcoesEPetiscos = document.getElementById("PorcoesEPetiscos");
-let CarnesBrasa = document.getElementById("CarnesBrasa");
-let DrinksAzeitona = document.getElementById("Drinks");
-let LongNeck = document.getElementById("LongNeck");
-let Gin = document.getElementById("Gin");
-let Whisky = document.getElementById("Whisky");
-let Combos = document.getElementById("Combos");
-let SolfDrinks = document.getElementById("SolfDrinks")
-let Caipirinhas = document.getElementById("Caipirinhas");
-let Cervejas = document.getElementById("Cervejas");
-let Cachacas = document.getElementById("Cachacas");
-let Doses = document.getElementById("Doses");
-let DrinksZero = document.getElementById("DrinksZero")
+const allcards = document.getElementById("all-cards")
 
+const btnsProdutos = document.querySelectorAll(".btn-produto");
+btnsProdutos.forEach (btn => {
+    btn.onclick = () => {
+        listar(btn.id);
+    }
+})
 
-Espeto.onclick = () => {
-    listar("Espetos")
-}
+inicio()
 
-Cremes.onclick = () => {
-    listar("Cremes")
-}
+async function inicio(){
+    
+    let produtos = await fetch("produtos.json").then(data => {return data.json()})
 
-CarnesBrasa.onclick = () => {
-    listar("CarnesBrasa")
-}
+    let Tipos = Object.getOwnPropertyNames(produtos);
+    allcards.innerHTML = null
+    Tipos.forEach(tipo => {
 
-Panelinhas.onclick = () => {
-    listar("Panelinhas")
-}
+        let allProdutos = document.createElement("section");
+        allProdutos.className = "produtosInicio"
 
-CarnesChapa.onclick = () => {
-    listar("CarnesChapa")
-}
+        let tituloSection = document.createElement("h2");
+        tituloSection.className = "tituloProduto"
+        tituloSection.textContent = tipo;
+        allProdutos.appendChild(tituloSection);
+        
+        let produtoInicio = document.createElement("div");
+        produtoInicio.className = "produtoInicio"
 
-Sucos.onclick = () => {
-    listar("Sucos")
-}
+        allcards.appendChild(allProdutos);
+        allProdutos.appendChild(produtoInicio);
+    })
+} 
 
-Adicionais.onclick = () => {
-    listar("Adicionais")
-}
-
-LongNeck.onclick = () => {
-    listar("Long-Neck")
-}
-
-Combos.onclick = () => {
-    listar("Combos")
-}
-
-Gin.onclick = () => {
-    listar("Gin")
-}
-
-Whisky.onclick = () => {
-    listar("Whisky")
-}
-
-Vodka.onclick = () => {
-    listar("Vodka")
-}
-
-SolfDrinks.onclick = () => {
-    listar("Solf Drinks")
-}
-
-Caipirinhas.onclick = () => {
-    listar("Caipirinha")
-}
-
-Cervejas.onclick = () => {
-    listar("Cervejas")
-}
-
-Cachacas.onclick = () => {
-    listar("Cachacas")
-}
-
-PorcoesEPetiscos.onclick = () => {
-    listar("PorcoesEPetiscos")
-}
-
-Doses.onclick = () => {
-    listar("Doses")
-}
-
-DrinksAzeitona.onclick = () => {
-    listar("DrinksDoAzeitona")
-}
-
-DrinksZero.onclick = () => {
-    listar("DrinksZero")
-}
 
 function listar(tipo) {
     allcards.innerHTML = null;
@@ -109,7 +43,6 @@ function listar(tipo) {
         
         let lista = json[tipo];
         lista.forEach(item => {
-        
                 
                 let div = document.createElement("div");
                 div.className = "card";
@@ -193,9 +126,17 @@ function listar(tipo) {
                 //
                 div.appendChild(preco);
                 allcards.appendChild(div);
+                
+                
+        }) 
 
-        })   
-        
+        const card = document.getElementsByClassName('card');
+        for (i = 0; i<card.length; i++ ){
+            card[i].addEventListener('click', function() {
+                this.classList.toggle('active');
+                console.log(this)
+            })
+        }
     })
 }
 
