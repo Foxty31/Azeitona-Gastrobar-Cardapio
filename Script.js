@@ -11,7 +11,7 @@ inicio()
 
 async function inicio(){
     
-    let produtos = await fetch("produtos.json").then(data => {return data.json()})
+    let produtos = await fetch("inicio.json").then(data => {return data.json()})
 
     let Tipos = Object.getOwnPropertyNames(produtos);
     allcards.innerHTML = null
@@ -20,7 +20,7 @@ async function inicio(){
         let allProdutos = document.createElement("section");
         allProdutos.className = "produtosInicio"
 
-        let tituloSection = document.createElement("h2");
+        let tituloSection = document.createElement("h1");
         tituloSection.className = "tituloProduto"
         tituloSection.textContent = tipo;
         allProdutos.appendChild(tituloSection);
@@ -28,8 +28,14 @@ async function inicio(){
         let produtoInicio = document.createElement("div");
         produtoInicio.className = "produtoInicio"
 
+        let itemInicio = document.createElement("h3");
+        itemInicio.className = "TituloCardInicio"
+        itemInicio.textContent = tipo.nome;
+
+
         allcards.appendChild(allProdutos);
         allProdutos.appendChild(produtoInicio);
+        produtoInicio.appendChild(TituloCardInicio);
     })
 } 
 

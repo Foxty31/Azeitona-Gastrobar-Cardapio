@@ -1,0 +1,34 @@
+{
+    "Combos":[
+        {
+            "nome":"Bucanas",
+            "val1":"??",
+            "Imagem":"Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Smirnoff +1 Suco (1L)",
+            "val1":120,
+            "Imagem":"Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Absolut + 3 Energeticos",
+            "val1":215,
+            "Imagem":"Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Gin Tanqueray + 3 Aguas Tônicas",
+            "val1":270,
+            "Imagem":"Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Gin Tanqueray + 3 Energétios",
+            "val1":280,
+            "Imagem":"Imagens/Espetos/cf.webp"
+        },
+        {
+            "nome":"Old Par + 3 Energéticos",
+            "val1":290,
+            "Imagem":"Imagens/Espetos/cf.webp"
+        }
+    ]
+}

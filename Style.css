@@ -200,3 +200,13 @@ body{
     color: #fff;
 }
 
+.produtosInicio{
+    width: 100%;
+    display: flex;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.tituloProduto{
+    font-size: 2.5rem;
+}
