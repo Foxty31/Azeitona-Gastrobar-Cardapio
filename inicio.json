@@ -30,5 +30,12 @@
             "val1":290,
             "Imagem":"Imagens/Espetos/cf.webp"
         }
+    ],
+    "Promoções":[
+        {
+            "nome":"Bucanas",
+            "val1":"??",
+            "Imagem":"Imagens/Espetos/cf.webp"
+        }
     ]
 }

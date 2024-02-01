@@ -8,40 +8,36 @@ btnsProdutos.forEach (btn => {
 })
 
 inicio()
- async function inicio(){
-     let produtos = await fetch("inicio.json").then(data => {return data.json()})
 
-     let Tipos = Object.getOwnPropertyNames(produtos);
-     allcards.innerHTML = null
-     Tipos.forEach(tipo => {
-         let allProdutos = document.createElement("section");
-         allProdutos.className = "produtosInicio"
+async function inicio(){
+    
+    let produtos = await fetch("inicio.json").then(data => {return data.json()})
 
-         let tituloSection = document.createElement("h1");
-         tituloSection.className = "tituloProduto"
-         tituloSection.textContent = tipo;
-         allProdutos.appendChild(tituloSection); 
-         
-         
-         let produtoInicio = document.createElement("div");
-         produtoInicio.className = "produtoInicio"
+    let Tipos = Object.getOwnPropertyNames(produtos);
+    allcards.innerHTML = null
+    Tipos.forEach(tipo => {
 
-        //  for each para o andar nos items de um tipo cadastrado!
-         produtos[tipo].forEach(item => {
-            // Aqui você vai criar os cards que apareceram no inicio
-            let itemInicio = document.createElement("h3");
-            itemInicio.className = "TituloCardInicio"
-            itemInicio.textContent = item.nome;
+        let allProdutos = document.createElement("section");
+        allProdutos.className = "produtosInicio"
 
-            // adiciona dentro do produto inicio que vai ficar dentro da section
-            produtoInicio.appendChild(itemInicio);
-         })
-         
-         allProdutos.appendChild(produtoInicio);
+        let tituloSection = document.createElement("h1");
+        tituloSection.className = "tituloProduto"
+        tituloSection.textContent = tipo;
+        allProdutos.appendChild(tituloSection);
+        
+        let produtoInicio = document.createElement("div");
+        produtoInicio.className = "produtoInicio"
 
-         allcards.appendChild(allProdutos);
-     })
- } 
+        let itemInicio = document.createElement("h3");
+        itemInicio.className = "TituloCardInicio"
+        itemInicio.textContent = tipo.nome;
+
+        produtoInicio.appendChild(itemInicio);
+
+        allcards.appendChild(allProdutos);
+        allProdutos.appendChild(produtoInicio);
+    })
+} 
 
 
 function listar(tipo) {
@@ -128,6 +124,11 @@ function listar(tipo) {
                     spanT.textContent = "R$"+item.val3+",00";
                     precoT.appendChild(spanT);
                 }
+
+                
+
+
+    
                 //
                 div.appendChild(preco);
                 allcards.appendChild(div);
@@ -144,3 +145,14 @@ function listar(tipo) {
         }
     })
 }
+
+
+
+
+
+
+
+
+
+ 
+

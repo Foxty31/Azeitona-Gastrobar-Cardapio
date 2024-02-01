@@ -33,6 +33,7 @@ body{
     z-index: 100;
     align-items: center;
     justify-content: space-between;
+    border-bottom: solid 5px black;
 }
 
 .img-logo{
@@ -203,10 +204,18 @@ body{
 .produtosInicio{
     width: 100%;
     display: flex;
+    flex-direction: column;
     margin-left: 10px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .tituloProduto{
     font-size: 2.5rem;
+}
+
+.produtoInicio{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
 }
