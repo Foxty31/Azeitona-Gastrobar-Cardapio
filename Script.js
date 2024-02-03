@@ -26,20 +26,20 @@ inicio()
          let produtoInicio = document.createElement("div");
          produtoInicio.className = "produtoInicio"
 
-        //  for each para o andar nos items de um tipo cadastrado!
-        //  produtos[tipo].forEach(item => {
-            // Aqui você vai criar os cards que apareceram no inicio
-            // let itemInicio = document.createElement("h3");
-            // itemInicio.className = "TituloCardInicio"
-            // itemInicio.textContent = item.nome;
+// for each para o andar nos items de um tipo cadastrado!
+            produtos[tipo].forEach(item => {
+//Aqui você vai criar os cards que apareceram no inicio
+             let itemInicio = document.createElement("div");
+             itemInicio.className = "TituloCardInicio"
+             itemInicio.style = `--n: "${item.nome}"; --b: "${item.Imagem}";`;
 
-            // adiciona dentro do produto inicio que vai ficar dentro da section
-//             produtoInicio.appendChild(itemInicio);
-//          })
+//adiciona dentro do produto inicio que vai ficar dentro da section
+             produtoInicio.appendChild(itemInicio);
+         })
          
-//          allProdutos.appendChild(produtoInicio);
+         allProdutos.appendChild(produtoInicio);
 
-//          allcards.appendChild(allProdutos);
+          allcards.appendChild(allProdutos);
       })
   } 
 
