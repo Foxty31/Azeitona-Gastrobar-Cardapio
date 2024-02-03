@@ -27,21 +27,21 @@ inicio()
          produtoInicio.className = "produtoInicio"
 
         //  for each para o andar nos items de um tipo cadastrado!
-         produtos[tipo].forEach(item => {
+        //  produtos[tipo].forEach(item => {
             // Aqui você vai criar os cards que apareceram no inicio
-            let itemInicio = document.createElement("h3");
-            itemInicio.className = "TituloCardInicio"
-            itemInicio.textContent = item.nome;
+            // let itemInicio = document.createElement("h3");
+            // itemInicio.className = "TituloCardInicio"
+            // itemInicio.textContent = item.nome;
 
             // adiciona dentro do produto inicio que vai ficar dentro da section
-            produtoInicio.appendChild(itemInicio);
-         })
+//             produtoInicio.appendChild(itemInicio);
+//          })
          
-         allProdutos.appendChild(produtoInicio);
+//          allProdutos.appendChild(produtoInicio);
 
-         allcards.appendChild(allProdutos);
-     })
- } 
+//          allcards.appendChild(allProdutos);
+      })
+  } 
 
 
 function listar(tipo) {
@@ -50,7 +50,6 @@ function listar(tipo) {
     fetch("produtos.json").then(data => {
         return data.json()
     }).then(json => {
-        
         let lista = json[tipo];
         lista.forEach(item => {
                 
