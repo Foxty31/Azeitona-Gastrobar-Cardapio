@@ -6,27 +6,27 @@
             "Imagem":"Imagens/Buchanas.jpg"
         },
         {
-            "nome":"Smirnoff +1 Suco (1L)",
+            "nome":"Smirnoff",
             "val1":120,
             "Imagem":"Imagens/Espetos/cf.webp"
         },
         {
-            "nome":"Absolut + 3 Energeticos",
+            "nome":"Absolut",
             "val1":215,
             "Imagem":"Imagens/Espetos/cf.webp"
         },
         {
-            "nome":"Gin Tanqueray + 3 Aguas Tônicas",
+            "nome":"Gin Tanqueray",
             "val1":270,
             "Imagem":"Imagens/Espetos/cf.webp"
         },
         {
-            "nome":"Gin Tanqueray + 3 Energétios",
+            "nome":"Gin Tanqueray",
             "val1":280,
             "Imagem":"Imagens/Espetos/cf.webp"
         },
         {
-            "nome":"Old Par + 3 Energéticos",
+            "nome":"Old Par",
             "val1":290,
             "Imagem":"Imagens/Espetos/cf.webp"
         }

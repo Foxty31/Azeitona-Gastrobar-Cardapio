@@ -220,19 +220,19 @@ body{
     overflow: scroll;
     margin: 0;
     /* content: var(--n) */
+    height: 200px;
+}
+
+.TituloCardInicio{
+    width: 100vh;
+    height: min-content;
+    margin: 5vh 10vh;
 }
 
 .TituloCardInicio::after{
     display: block;
     content: var(--n);
     font-size: 50px;
-    width: 50%;
-    height: 30%;
-    margin: 100px;
-}
-
-.TituloCardInicio{
-    background-image: var(--b);
-    width: 90vh;
-    height: 30vh;
+    width: min-content;
+    height: 100px;
 }
