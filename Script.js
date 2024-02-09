@@ -22,6 +22,10 @@ inicio()
          tituloSection.textContent = tipo;
          allProdutos.appendChild(tituloSection); 
          
+
+         let imagemCardInicio = document.createElement("img");
+         imagemCardInicio.classname = "imagemCardInicio"
+         imagemCardInicio.src = tipo.Imagem;
          
          let produtoInicio = document.createElement("div");
          produtoInicio.className = "produtoInicio"
@@ -31,12 +35,13 @@ inicio()
 //Aqui você vai criar os cards que apareceram no inicio
              let itemInicio = document.createElement("div");
              itemInicio.className = "TituloCardInicio"
-             itemInicio.style = `--n: "${item.nome}"; --b: "${item.Imagem}";`;
+             itemInicio.style = `--n: "${item.nome}";`;
 
 //adiciona dentro do produto inicio que vai ficar dentro da section
              produtoInicio.appendChild(itemInicio);
+
+             itemInicio.appendChild(imagemCardInicio);
          })
-         
          allProdutos.appendChild(produtoInicio);
 
           allcards.appendChild(allProdutos);

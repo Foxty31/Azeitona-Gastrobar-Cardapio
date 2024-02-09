@@ -1,3 +1,8 @@
+:root{
+    --main-bg-imagem: var(--b);
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -206,6 +211,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    height: 100%;
     /* position: absolute; */
 }
 
@@ -216,23 +222,20 @@ body{
 .produtoInicio{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     overflow-x: scroll;
-    /* content: var(--n) */
     height: 200px;
-}
-
-.TituloCardInicio{
-    margin: 5vh 10px;
-    width: 100vh;
-    display: block;
-    background: url(Imagens/Buchanas.jpg);
+    overflow-y: hidden;
 }
 
 .TituloCardInicio::after{
     display: block;
     content: var(--n);
     font-size: 50px;
-    width: min-content;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+    border-radius: 20px;
+    background-image: var(--b);
 }
