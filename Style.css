@@ -212,11 +212,18 @@ body{
     flex-direction: column;
     margin-left: 10px;
     height: 100%;
-    /* position: absolute; */
 }
 
 .tituloProduto{
     font-size: 2.5rem;
+}
+
+.divCardInicio .imagemCardInicio{
+    display: block;
+    width: 400px;
+    height: 200px;
+    z-index: -1;
+    transition: 0.5s;
 }
 
 .produtoInicio{
@@ -227,15 +234,15 @@ body{
     overflow-y: hidden;
 }
 
-.TituloCardInicio::after{
-    display: block;
-    content: var(--n);
-    font-size: 50px;
-    width: 300px;
-    height: 200px;
+.divCardInicio{
+    width: 400px;
+    height: min-content;
     justify-content: center;
     align-items: center;
-    margin: 30px 50px;
-    border-radius: 20px;
-    background-image: var(--b);
+    margin: auto 50px;
+}
+
+.tituloInicio{
+    font-size: 50px;
+    z-index: 10;
 }
