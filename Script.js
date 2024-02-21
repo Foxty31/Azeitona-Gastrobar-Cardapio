@@ -23,9 +23,7 @@ inicio()
          allProdutos.appendChild(tituloSection); 
          
 
-         let imagemCardInicio = document.createElement("img");
-         imagemCardInicio.classname = "imagemCardInicio"
-         imagemCardInicio.src = tipo.Imagem;
+         
          
          let produtoInicio = document.createElement("div");
          produtoInicio.className = "produtoInicio"
@@ -33,14 +31,21 @@ inicio()
 // for each para o andar nos items de um tipo cadastrado!
             produtos[tipo].forEach(item => {
 //Aqui você vai criar os cards que apareceram no inicio
-             let itemInicio = document.createElement("div");
-             itemInicio.className = "TituloCardInicio"
-             itemInicio.style = `--n: "${item.nome}";`;
+                let itemInicio = document.createElement("div");
+                itemInicio.className = "divCardInicio"
+
+                let tituloCard = document.createElement("h1");
+                tituloCard.className = "tituloInicio"
+                tituloCard.textContent = item.nome;
+
+                let imagemCardInicio = document.createElement("img");
+                imagemCardInicio.className = "imagemCardInicio"
+                imagemCardInicio.src = item.Imagem;
 
 //adiciona dentro do produto inicio que vai ficar dentro da section
              produtoInicio.appendChild(itemInicio);
-
-             itemInicio.appendChild(imagemCardInicio);
+             itemInicio.appendChild(tituloCard);
+             itemInicio.appendChild(imagemCardInicio)
          })
          allProdutos.appendChild(produtoInicio);
 
