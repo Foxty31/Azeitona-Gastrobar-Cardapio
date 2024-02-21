@@ -22,9 +22,6 @@ inicio()
          tituloSection.textContent = tipo;
          allProdutos.appendChild(tituloSection); 
          
-
-         
-         
          let produtoInicio = document.createElement("div");
          produtoInicio.className = "produtoInicio"
 
