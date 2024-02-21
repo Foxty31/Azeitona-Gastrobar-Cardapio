@@ -8,7 +8,7 @@ body{
     padding: 0;
     background-color: #fff;
 }
-
+/* ---------------------------------------------------LOADING----------------------------------------------------- */
 .loading{
     width: 50px;
     height: 50px;
@@ -27,7 +27,7 @@ body{
         transform: rotate(360deg);
     }
 }
-
+/* ---------------------------------------------------NAVBAR---------------------------------------------------- */
 .navbar{
     display: flex;
     background-color: #00490a;
@@ -60,7 +60,7 @@ body{
     transform: translateY(15px);
     transition: 0.1s;
 }
-
+/* ---------------------------------------------------SUB-NAVBAR---------------------------------------------------- */
 .sub-navbar{
     background: rgb(0, 61, 5);
     width: 100%;
@@ -91,7 +91,7 @@ body{
     min-width: 200px;
     height: 10px;
 }
-
+/* ---------------------------------------------------SECTION CARD---------------------------------------------------- */
 .all-cards{
     width: 100%;
     height: 100%;
@@ -103,10 +103,10 @@ body{
     align-items: center;
     justify-content: flex-start;
 }
-
+/* ---------------------------------------------------CARDS---------------------------------------------------- */
 .card{
     position: relative;
-    width: 90%;
+    width:90%;
     margin: none;
     background-color: #fff;
     justify-content: space-between;
@@ -160,7 +160,7 @@ body{
     right: 0;
     top: 10px;
     text-align: center;
-    width: 70%;
+    width: 55%;
     height: max-content;
     z-index: 2;
     position: absolute;
@@ -205,7 +205,7 @@ body{
     justify-content: space-around;
     color: #fff;
 }
-
+/* ---------------------------------------------------CARDS-INICIO---------------------------------------------------- */
 .produtosInicio{
     width: 100%;
     display: flex;
@@ -219,11 +219,12 @@ body{
 }
 
 .divCardInicio .imagemCardInicio{
-    display: block;
     width: 400px;
+    display: block;
     height: 200px;
-    z-index: -1;
-    transition: 0.5s;
+    top: 0;
+    transform: translateY(-70px);
+    z-index: 2;
 }
 
 .produtoInicio{
@@ -235,14 +236,63 @@ body{
 }
 
 .divCardInicio{
+    text-align: center;
     width: 400px;
-    height: min-content;
+    height: 200px;
     justify-content: center;
     align-items: center;
-    margin: auto 50px;
+    margin: auto 10px;
 }
 
 .tituloInicio{
     font-size: 50px;
     z-index: 10;
+}
+/* ---------------------------------------------------FOOTER---------------------------------------------------- */
+footer{
+    background-color: #1d1d1d;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -32px 15px 5px rgba(0,0,0,0.1);
+    width: 90%;
+    height: 250px;
+    padding: 5%;
+}
+
+footer div h1{
+    margin: 10px;
+    color: #fff;
+    margin: auto;
+}
+
+.Local{
+    background-color: #00490a;
+    border-radius: 10px;
+    width: 100% / 2;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Contato{
+    background-color: #00490a;
+    border-radius: 10px;
+    width: 100% / 2;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.icons{
+    width: 20%;
+    height: 20%;
+}
+
+.icone{
+    color: #00490a;
+    width: 20%;
+    height: 20%;
 }
