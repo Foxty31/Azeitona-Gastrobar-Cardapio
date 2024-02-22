@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root{
     --main-bg-imagem: var(--b);
 }
@@ -41,7 +41,6 @@ body{
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .img-logo{
     width: 6vh;
     margin-left: 10px;
@@ -326,9 +325,6 @@ footer a{
 
 .horario p{
     color: #fff;
-=======
-:root{
-    --main-bg-imagem: var(--b);
 }
 
 
@@ -624,5 +620,5 @@ footer a{
     color: #00490a;
     width: 20%;
     height: 20%;
->>>>>>> c69e7ce176c5114573d81470439a2d55b814093f
+
 }

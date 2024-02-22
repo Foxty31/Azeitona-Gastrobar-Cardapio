@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
     "Combos":[
         {
@@ -34,46 +34,4 @@
             "Imagem":"Imagens/Espetos/cf.webp"
         }
     ]
-=======
-{
-    "Combos":[
-        {
-            "nome":"Bucanas",
-            "val1":"??",
-            "Imagem":"Imagens/Buchanas.jpg"
-        },
-        {
-            "nome":"Smirnoff",
-            "val1":120,
-            "Imagem":"Imagens/Espetos/cf.webp"
-        },
-        {
-            "nome":"Absolut",
-            "val1":215,
-            "Imagem":"Imagens/Espetos/cf.webp"
-        },
-        {
-            "nome":"Gin Tanqueray",
-            "val1":270,
-            "Imagem":"Imagens/Espetos/cf.webp"
-        },
-        {
-            "nome":"Gin Tanqueray",
-            "val1":280,
-            "Imagem":"Imagens/Espetos/cf.webp"
-        },
-        {
-            "nome":"Old Par",
-            "val1":290,
-            "Imagem":"Imagens/Espetos/cf.webp"
-        }
-    ],
-    "Promoções":[
-        {
-            "nome":"Bucanas",
-            "val1":"??",
-            "Imagem":"Imagens/Espetos/cf.webp"
-        }
-    ]
->>>>>>> c69e7ce176c5114573d81470439a2d55b814093f
 }
